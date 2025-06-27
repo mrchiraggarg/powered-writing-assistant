@@ -74,7 +74,7 @@ const App: React.FC = () => {
       const response = await axios.post(
         OPENAI_API_URL,
         {
-          model: "gpt-3.5-turbo",
+          model: "gpt-4o-mini",
           messages: [
             {
               role: "system",
