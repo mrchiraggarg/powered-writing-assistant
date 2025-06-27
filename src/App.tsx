@@ -34,6 +34,7 @@ const TRANSLATE_LANGUAGES = [
 ];
 
 const OPENAI_API_URL = "https://api.openai.com/v1/chat/completions";
+const API_KEY = import.meta.env.API_KEY;
 
 function getPrompt(
   action: GPTAction,
@@ -90,7 +91,8 @@ const App: React.FC = () => {
         },
         {
           headers: {
-            Authorization: `Bearer ${process.env.API_KEY}`,
+
+            Authorization: `Bearer ${API_KEY}`,
             "Content-Type": "application/json",
           },
         }
