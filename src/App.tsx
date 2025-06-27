@@ -1,9 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
 
-const apiKey = import.meta.env.API_KEY; // ✅ Vite
-console.log("API Key:", apiKey);
-
 import {
   Container,
   TextField,
@@ -35,7 +32,7 @@ const TRANSLATE_LANGUAGES = [
 ];
 
 const OPENAI_API_URL = "https://api.openai.com/v1/chat/completions";
-const API_KEY = (import.meta as any).env.API_KEY;
+const API_KEY = (import.meta as any).env.REACT_APP_API_KEY;
 
 function getPrompt(
   action: GPTAction,
