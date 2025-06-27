@@ -108,7 +108,7 @@ const App: React.FC = () => {
   return (
     <Container maxWidth="md" sx={{ py: 4 }}>
       <Typography variant="h3" gutterBottom align="center">
-        ChatGPT Writing Assistant
+        Powered Writing Assistant
       </Typography>
       <Paper elevation={3} sx={{ p: 3, mb: 4 }}>
         <TextField
