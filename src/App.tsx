@@ -3,6 +3,8 @@ import axios from "axios";
 // import dotenv from "dotenv";
 // dotenv.config();
 
+console.log("API_KEY:", process.env.API_KEY);
+
 import {
   Container,
   TextField,
