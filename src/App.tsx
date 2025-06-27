@@ -2,9 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 
 const apiKey = import.meta.env.API_KEY; // ✅ Vite
-// const apiKey = process.env.REACT_APP_OPENAI_API_KEY; // ✅ CRA
 console.log("API Key:", apiKey);
-
 
 import {
   Container,
