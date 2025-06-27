@@ -34,6 +34,7 @@ const TRANSLATE_LANGUAGES = [
 const OPENAI_API_URL = "https://api.openai.com/v1/chat/completions";
 const API_KEY = process.env.REACT_APP_API_KEY;
 
+console.log("ENV:", process.env);
 console.log("API Key:", API_KEY);
 
 function getPrompt(
